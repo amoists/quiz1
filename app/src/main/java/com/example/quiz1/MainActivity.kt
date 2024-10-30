@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
             val phoneNumber = editText.text.toString()
             textView.text = "your number is $phoneNumber"
         }
-
         nextButton.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
